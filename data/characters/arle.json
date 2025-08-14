@@ -3,6 +3,7 @@
   "barColor": "#FFFFFF",
   "imageStretch": 1,
   "animType": 0,
+  "flip_x": true,
   "startingAnim": "idle",
   "animations": [
     {
@@ -13,7 +14,6 @@
         "Y": 143
       },
       "danceInterrupt": false,
-      "byIndices": false,
       "frameIndices": []
     },
     {
@@ -24,7 +24,6 @@
         "Y": 147
       },
       "danceInterrupt": false,
-      "byIndices": false,
       "frameIndices": []
     },
     {
@@ -35,7 +34,26 @@
         "Y": 143
       },
       "danceInterrupt": false,
-      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singUP",
+      "prefix": "pico Up note",
+      "offsets": {
+        "X": 50,
+        "Y": 190
+      },
+      "danceInterrupt": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Pico Down Note",
+      "offsets": {
+        "X": 5,
+        "Y": 103
+      },
+      "danceInterrupt": false,
       "frameIndices": []
     }
   ]

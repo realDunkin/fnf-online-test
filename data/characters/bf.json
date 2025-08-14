@@ -3,6 +3,7 @@
   "barColor": "#FFFFFF",
   "imageStretch": 1,
   "animType": 0,
+  "flip_x": true,
   "startingAnim": "idle",
   "animations": [
     {

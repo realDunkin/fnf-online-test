@@ -1,0 +1,163 @@
+{
+  "asset": "BOYFRIEND",
+  "barColor": "#FFFFFF",
+  "imageStretch": 1,
+  "animType": 0,
+  "startingAnim": "idle",
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "BF idle dance",
+      "offsets": {
+        "X": -5,
+        "Y": 0
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singUP",
+      "prefix": "BF NOTE UP0",
+      "offsets": {
+        "X": -29,
+        "Y": 27
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "BF NOTE LEFT0",
+      "offsets": {
+        "X": 12,
+        "Y": -6
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "BF NOTE RIGHT0",
+      "offsets": {
+        "X": -38,
+        "Y": -7
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "BF NOTE DOWN0",
+      "offsets": {
+        "X": -10,
+        "Y": -50
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "BF NOTE UP MISS",
+      "offsets": {
+        "X": -29,
+        "Y": 27
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "BF NOTE LEFT MISS",
+      "offsets": {
+        "X": 12,
+        "Y": 24
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "BF NOTE RIGHT MISS",
+      "offsets": {
+        "X": -30,
+        "Y": 21
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "BF NOTE DOWN MISS",
+      "offsets": {
+        "X": -11,
+        "Y": -19
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "hey",
+      "prefix": "BF HEY",
+      "offsets": {
+        "X": 7,
+        "Y": 4
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "firstDeath",
+      "prefix": "BF dies",
+      "offsets": {
+        "X": 37,
+        "Y": 11
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "deathLoop",
+      "prefix": "BF Dead Loop",
+      "offsets": {
+        "X": 37,
+        "Y": 5
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "deathConfirm",
+      "prefix": "BF Dead confirm",
+      "offsets": {
+        "X": 37,
+        "Y": 69
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "scared",
+      "prefix": "BF idle shaking",
+      "offsets": {
+        "X": -4,
+        "Y": 0
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    }
+  ]
+}

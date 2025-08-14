@@ -1,0 +1,42 @@
+{
+  "asset": "arle_fnf",
+  "barColor": "#FFFFFF",
+  "imageStretch": 1,
+  "animType": 0,
+  "startingAnim": "idle",
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Pico Idle Dance",
+      "offsets": {
+        "X": -51,
+        "Y": 143
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Pico Note Right",
+      "offsets": {
+        "X": 43,
+        "Y": 147
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    },
+    {
+      "name": "singRight",
+      "prefix": "Pico NOTE LEFT",
+      "offsets": {
+        "X": -52,
+        "Y": 143
+      },
+      "danceInterrupt": false,
+      "byIndices": false,
+      "frameIndices": []
+    }
+  ]
+}

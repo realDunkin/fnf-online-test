@@ -29,7 +29,7 @@
       "frameIndices": []
     },
     {
-      "name": "singLEFT",
+      "name": "singRIGHT",
       "prefix": "BF NOTE LEFT0",
       "offsets": {
         "X": 12,
@@ -40,7 +40,7 @@
       "frameIndices": []
     },
     {
-      "name": "singRIGHT",
+      "name": "singLEFT",
       "prefix": "BF NOTE RIGHT0",
       "offsets": {
         "X": -38,
@@ -73,7 +73,7 @@
       "frameIndices": []
     },
     {
-      "name": "singLEFTmiss",
+      "name": "singRIGHTmiss",
       "prefix": "BF NOTE LEFT MISS",
       "offsets": {
         "X": 12,
@@ -84,7 +84,7 @@
       "frameIndices": []
     },
     {
-      "name": "singRIGHTmiss",
+      "name": "singLEFTmiss",
       "prefix": "BF NOTE RIGHT MISS",
       "offsets": {
         "X": -30,

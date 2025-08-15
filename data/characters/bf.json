@@ -29,7 +29,7 @@
       "frameIndices": []
     },
     {
-      "name": "singRIGHT",
+      "name": "singLEFT",
       "prefix": "BF NOTE LEFT0",
       "offsets": {
         "X": 12,
@@ -40,7 +40,7 @@
       "frameIndices": []
     },
     {
-      "name": "singLEFT",
+      "name": "singRIGHT",
       "prefix": "BF NOTE RIGHT0",
       "offsets": {
         "X": -38,

@@ -1,10 +1,11 @@
 {
   "asset": "arle_fnf",
   "barColor": "#FFFFFF",
-  "imageStretch": 1,
+  "flip_x": false,
+  "scale": 1,
   "animType": 0,
-  "flip_x": true,
   "startingAnim": "idle",
+  "singDuration": 4.0,
   "animations": [
     {
       "name": "idle",
@@ -13,7 +14,7 @@
         "X": -51,
         "Y": 143
       },
-      "danceInterrupt": false,
+      "waitUntilFinished": false,
       "frameIndices": []
     },
     {
@@ -23,7 +24,7 @@
         "X": 43,
         "Y": 147
       },
-      "danceInterrupt": false,
+      "waitUntilFinished": false,
       "frameIndices": []
     },
     {
@@ -33,7 +34,7 @@
         "X": -52,
         "Y": 143
       },
-      "danceInterrupt": false,
+      "waitUntilFinished": false,
       "frameIndices": []
     },
     {
@@ -43,7 +44,7 @@
         "X": 50,
         "Y": 190
       },
-      "danceInterrupt": false,
+      "waitUntilFinished": false,
       "frameIndices": []
     },
     {
@@ -53,7 +54,7 @@
         "X": 5,
         "Y": 103
       },
-      "danceInterrupt": false,
+      "waitUntilFinished": false,
       "frameIndices": []
     }
   ]

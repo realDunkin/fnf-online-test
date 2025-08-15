@@ -9,13 +9,15 @@ print("")
 animType = input("Enter Dance Type [0 = Default, 1 = GF Type]: ")
 print("")
 startingAnim = input("Enter Starting Animation: ")
+print("")
+singDuration = input("Enter Sing Duration: ")
 
 print("\n")
 				
 splitAnims = animsToSplit.replace('\t', '').replace('\n', '').split(';')
 del splitAnims[-1]
 
-daDictionary = {"asset": assetName, "barColor": "#FFFFFF", "animType": int(animType), "startingAnim": startingAnim, "animations": []}
+daDictionary = {"asset": assetName, "barColor": "#FFFFFF", "noAntialiasing": False, "flip_x": False, "scale": 1, "animType": int(animType), "startingAnim": startingAnim, "singDuration": float(singDuration), "animations": []}
 
 for item in splitAnims:
     animDictionary = {}
@@ -25,8 +27,19 @@ for item in splitAnims:
         animDictionary['name'] = animData[0].lstrip()
         animDictionary['prefix'] = animData[1].lstrip()
         animDictionary['offsets'] = {'X': 0, 'Y': 0}
-        animDictionary['byIndices'] = False
+        animDictionary['waitUntilFinished'] = False
         animDictionary['frameIndices'] = []
+        try:
+            animDictionary['fps'] = int(animData[len(animData) - 2])
+        except:
+            animDictionary['fps'] = int(animData[len(animData) - 1])
+        try:
+            if animData[len(animData) - 1] == True:
+                animDictionary['looping'] = True
+            else:
+                animDictionary['looping'] = False
+        except:
+            animDictionary['looping'] = False
     elif "animation.addByIndices" in tempAnim:
         indicesArray = []
         for i in range(2, len(animData) - 3):
@@ -34,9 +47,19 @@ for item in splitAnims:
         animDictionary['name'] = animData[0].lstrip()
         animDictionary['prefix'] = animData[1].lstrip()
         animDictionary['offsets'] = {'X': 0, 'Y': 0}
-        animDictionary['byIndices'] = True
-        animDictionary['danceInterrupt'] = False
+        animDictionary['waitUntilFinished'] = False
         animDictionary['frameIndices'] = indicesArray
+        try:
+            animDictionary['fps'] = int(animData[len(animData) - 2])
+        except:
+            animDictionary['fps'] = int(animData[len(animData) - 1])
+        try:
+            if animData[len(animData) - 1] == True:
+                animDictionary['looping'] = True
+            else:
+                animDictionary['looping'] = False
+        except:
+            animDictionary['looping'] = False
     daDictionary['animations'].append(animDictionary)
 
 splitOffsets = offsetsToSplit.replace('\t', '').replace('\n', '').split(';')
@@ -59,7 +82,5 @@ for item in splitOffsets:
 
 filename = input("Enter Character Name: ")
 
-with open(f'{filename}.json', 'w') as json_file:
+with open(f'data/characters/{filename}.json', 'w') as json_file:
     json.dump(daDictionary, json_file, indent=4)
-
-print(f"Dictionary saved to {filename}.json")

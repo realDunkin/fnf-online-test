@@ -1,7 +1,7 @@
 {
   "asset": "arle_fnf",
   "barColor": "#FFFFFF",
-  "flip_x": false,
+  "flip_x": true,
   "scale": 1,
   "animType": 0,
   "startingAnim": "idle",

@@ -1,0 +1,157 @@
+{
+    "asset": "FLChan_Assets",
+    "barColor": "#FFFFFF",
+    "noAntialiasing": false,
+    "flip_x": false,
+    "scale": 1,
+    "animType": 0,
+    "startingAnim": "idle",
+    "singDuration": 4.0,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "Mom Idle",
+            "offsets": {
+                "X": 0,
+                "Y": 0
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "Mom Up Pose",
+            "offsets": {
+                "X": 14,
+                "Y": 71
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "MOM DOWN POSE",
+            "offsets": {
+                "X": 20,
+                "Y": -160
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "Mom Left Pose",
+            "offsets": {
+                "X": 250,
+                "Y": -23
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Mom Pose Left",
+            "offsets": {
+                "X": 10,
+                "Y": -60
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "idle-loop",
+            "prefix": "Mom Idle",
+            "offsets": {
+                "X": 0,
+                "Y": 0
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singUP-loop",
+            "prefix": "Mom Up Pose",
+            "offsets": {
+                "X": 14,
+                "Y": 71
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singDOWN-loop",
+            "prefix": "MOM DOWN POSE",
+            "offsets": {
+                "X": 20,
+                "Y": -160
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singLEFT-loop",
+            "prefix": "Mom Left Pose",
+            "offsets": {
+                "X": 250,
+                "Y": -23
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singRIGHT-loop",
+            "prefix": "Mom Pose Left",
+            "offsets": {
+                "X": 10,
+                "Y": -60
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                13
+            ],
+            "fps": 24,
+            "looping": false
+        }
+    ]
+}

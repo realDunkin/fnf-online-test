@@ -1,0 +1,180 @@
+{
+    "asset": "BOYFRIENDsus",
+    "barColor": "#FFFFFF",
+    "noAntialiasing": false,
+    "flip_x": false,
+    "scale": 1,
+    "animType": 0,
+    "startingAnim": "idle",
+    "singDuration": 4.0,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "BF idle dance",
+            "offsets": {
+                "X": -5,
+                "Y": 0
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "BF NOTE UP0",
+            "offsets": {
+                "X": -29,
+                "Y": 27
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "BF NOTE LEFT0",
+            "offsets": {
+                "X": 12,
+                "Y": -6
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "BF NOTE RIGHT0",
+            "offsets": {
+                "X": -38,
+                "Y": -7
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "BF NOTE DOWN0",
+            "offsets": {
+                "X": -10,
+                "Y": -50
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "BF NOTE UP MISS",
+            "offsets": {
+                "X": -29,
+                "Y": 27
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "BF NOTE LEFT MISS",
+            "offsets": {
+                "X": 12,
+                "Y": 24
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "BF NOTE RIGHT MISS",
+            "offsets": {
+                "X": -30,
+                "Y": 21
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "BF NOTE DOWN MISS",
+            "offsets": {
+                "X": -11,
+                "Y": -19
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "hey",
+            "prefix": "BF HEY",
+            "offsets": {
+                "X": 7,
+                "Y": 4
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "firstDeath",
+            "prefix": "BF dies",
+            "offsets": {
+                "X": 37,
+                "Y": 11
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "deathLoop",
+            "prefix": "BF Dead Loop",
+            "offsets": {
+                "X": 37,
+                "Y": 5
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "deathConfirm",
+            "prefix": "BF Dead confirm",
+            "offsets": {
+                "X": 37,
+                "Y": 69
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "scared",
+            "prefix": "BF idle shaking",
+            "offsets": {
+                "X": -4,
+                "Y": 0
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "asset": "DADDY_DEARESTsus",
+    "barColor": "#FFFFFF",
+    "noAntialiasing": false,
+    "flip_x": false,
+    "scale": 1,
+    "animType": 0,
+    "startingAnim": "idle",
+    "singDuration": 6.1,
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "Dad idle dance",
+            "offsets": {
+                "X": 0,
+                "Y": 0
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singUP",
+            "prefix": "Dad Sing Note UP",
+            "offsets": {
+                "X": -6,
+                "Y": 50
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Dad Sing Note RIGHT",
+            "offsets": {
+                "X": 0,
+                "Y": 27
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "Dad Sing Note DOWN",
+            "offsets": {
+                "X": 0,
+                "Y": -30
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "Dad Sing Note LEFT",
+            "offsets": {
+                "X": -10,
+                "Y": 10
+            },
+            "waitUntilFinished": false,
+            "frameIndices": [],
+            "fps": 24,
+            "looping": false
+        }
+    ]
+}

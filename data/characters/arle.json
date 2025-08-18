@@ -4,6 +4,10 @@
   "flip_x": true,
   "scale": 1,
   "animType": 0,
+  "positionOffset": {
+    "X": 0,
+    "Y": 300
+  },
   "startingAnim": "idle",
   "singDuration": 4.0,
   "animations": [

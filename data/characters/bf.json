@@ -10,7 +10,7 @@
     "positionOffset": {
         "X": 0,
         "Y": 0
-     },
+    },
     "animations": [
         {
             "name": "idle",

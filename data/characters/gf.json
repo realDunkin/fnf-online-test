@@ -7,6 +7,10 @@
     "animType": 1,
     "startingAnim": "danceRight",
     "singDuration": 4.3,
+    "positionOffset": {
+        "X": 0,
+        "Y": 0
+    },
     "animations": [
         {
             "name": "cheer",

@@ -1,12 +1,16 @@
 {
     "asset": "FLChan_Assets",
-    "barColor": "#FFFFFF",
+    "barColor": "A5DC85",
     "noAntialiasing": false,
     "flip_x": false,
     "scale": 1,
     "animType": 0,
     "startingAnim": "idle",
     "singDuration": 4.0,
+    "positionOffset": {
+        "X": 0,
+        "Y": 300
+    },
     "animations": [
         {
             "name": "idle",

@@ -1,12 +1,16 @@
 {
     "asset": "DADDY_DEARESTsus",
-    "barColor": "#FFFFFF",
+    "barColor": "C71110",
     "noAntialiasing": false,
     "flip_x": false,
     "scale": 1,
     "animType": 0,
     "startingAnim": "idle",
     "singDuration": 6.1,
+    "positionOffset": {
+        "X": 0,
+        "Y": 0
+    },
     "animations": [
         {
             "name": "idle",

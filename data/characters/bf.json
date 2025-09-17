@@ -154,7 +154,7 @@
             "waitUntilFinished": false,
             "frameIndices": [],
             "fps": 24,
-            "looping": false
+            "looping": true
         },
         {
             "name": "deathConfirm",
